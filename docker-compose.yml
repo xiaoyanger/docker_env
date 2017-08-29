@@ -12,6 +12,13 @@ services:
       links:
         - "php"
 
+  db:
+      image: mysql
+      ports:
+        - "3336:3306"
+      environment:
+        - MYSQL_ROOT_PASSWORD=defaultpass
+
   php:
     build:
       context: ./services/php
@@ -76,7 +83,7 @@ services:
     ports:
       - "8081:80"
     environment:
-      PMA_HOST: "192.168.0.10"
+      PMA_HOST: "db"
       PMA_USER: "root"
       PMA_PASSWORD: "defaultpass"
 
