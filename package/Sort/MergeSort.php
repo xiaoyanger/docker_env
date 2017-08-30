@@ -25,7 +25,7 @@ class MergeSort
     public function __construct(array $arr)
     {
         $this->mSort($arr, 0, count($arr) - 1);
-        var_dump($arr);
+        var_dump(json_encode($arr));
     }
 
     /**
@@ -60,7 +60,7 @@ class MergeSort
      */
     public function mergeArray(&$arr, $left, $center, $right)
     {
-        echo '| ' . $left . ' - ' . $center . ' - ' . $right . ' - ' . implode(',', $arr) . PHP_EOL;
+        echo '| ' . $left . ' - ' . $center . ' - ' . $right . ' - ' . implode(',', $arr) . PHP_EOL."<br/>";
         //设置两个起始位置标记
         $a_i  = $left;
         $b_i  = $center + 1;

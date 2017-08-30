@@ -41,7 +41,7 @@ function HanoiGames($n, $x, $y, $z)
     }
 }
 
-HanoiGames(3, 'A', 'B', 'C');
+HanoiGames(6, 'A', 'B', 'C');
 
 //  move disk 1 from A to C
 //  move disk 2 from A to B

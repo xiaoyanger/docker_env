@@ -29,7 +29,7 @@ function BubbleSort( array $container ) {
     return $container;
 }
 
-var_dump( BubbleSort([4,21,41,2,53,1,213,31,21,423]) );
+var_dump( json_encode(BubbleSort([4,21,41,2,53,1,213,31,21,423]) ));
 
 /*
 array(10) {

@@ -31,10 +31,13 @@ function InsertSort(array $container)
             $j--;
             if ($j < 0) break;
         }
+        echo "<br/><pre>";
+        var_dump(json_encode($container));
+        echo "<br/><pre>";
     }
     return $container;
 }
-var_dump(InsertSort([3, 12, 42, 1, 24, 5, 346, 7]));
+var_dump(json_encode(InsertSort([3, 12, 42, 1, 24, 5, 346, 7])));
 
 /*
 array (size=8)
