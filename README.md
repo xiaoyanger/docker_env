@@ -1,12 +1,6 @@
 用 PHP 的方式实现的各类算法合集
 ===============
 
-[![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/craft.min.js.svg)](https://github.com/PuShaoWei/arithmetic-php)
-[![](https://img.shields.io/github/issues-pr-raw/cdnjs/cdnjs.svg)](https://github.com/PuShaoWei/arithmetic-php)
-[![PyPI](https://img.shields.io/pypi/status/Django.svg)](https://github.com/PuShaoWei/arithmetic-php)
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/PuShaoWei/arithmetic-php)
-[![Codacy grade](https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg)](https://github.com/PuShaoWei/arithmetic-php)
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 
 ## About
 
